@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+:root {
+    --font-family: 'Oswald', sans-serif;
+    --black: #14110fff;
+    --gray: #34312dff;
+    --pink: #cb48b7ff;
+    --teal: #488286ff;
+    --blue: #a8dadcff;
+    --BRgradient: linear-gradient(135deg, #14110fff, #34312dff, #cb48b7ff, #488286ff, #a8dadcff);
+    --gradientRadial: radial-gradient(#14110fff, #34312dff, #cb48b7ff, #488286ff, #a8dadcff);
+}
