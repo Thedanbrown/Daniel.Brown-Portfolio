@@ -1,0 +1,17 @@
+.header-container {
+    background: var(--gradientRadial);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    line-height: 27px;
+    margin-top: 1.5rem;
+}
+
+.nav-container {
+    background: var(--gradientRadial);
+    display: flex;
+    font-size: 28px;
+    line-height: 27px;
+    margin-top: 1.5rem;
+}

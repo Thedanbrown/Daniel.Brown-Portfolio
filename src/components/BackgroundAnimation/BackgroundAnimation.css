@@ -1,15 +1,7 @@
-html, body { 
-    height: 100%;
-    overflow:hidden 
-}
-
-body {
-        background: black;
-}
 
 .svg-container {
-    display: inline-block;
-    position: relative;
+    /* display: inline-block;
+    position: relative; */
     height: 0;
     width: 50%;
     padding: 0;
@@ -21,8 +13,8 @@ body {
 }
 
 .svg-ani {
-    display: inline-block;
-    position: absolute;
+    /* display: inline-block;
+    position: absolute; */
     top: 0;
     left: 0;
 }

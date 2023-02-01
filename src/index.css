@@ -7,6 +7,7 @@
     --pink: #cb48b7ff;
     --teal: #488286ff;
     --blue: #a8dadcff;
-    --BRgradient: linear-gradient(135deg, #14110fff, #34312dff, #cb48b7ff, #488286ff, #a8dadcff);
-    --gradientRadial: radial-gradient(#14110fff, #34312dff, #cb48b7ff, #488286ff, #a8dadcff);
+    --BRgradient: linear-gradient(135deg, #14110fff, #34312dff, #488286ff, #cb48b7ff);
+    --textGradient: linear-gradient(135deg, #14110fff, #34312dff, #cb48b7ff, #488286ff );
+    --gradientRadial: radial-gradient(#14110fff, #34312dff, #cb48b7ff, #488286ff);
 }

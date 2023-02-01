@@ -6,13 +6,20 @@ import { Header, AboutMe, Portfolio, Contact, Resume, Footer } from './Container
 const App = () => {
     return (
         <div>
-            <Header />
-            <AboutMe />
-            <Portfolio />
-            <Contact />
-            <Resume />
-            <Footer />
-            <BackgroundAnimation />
+            <div className='App'>
+                <div className='gradient__text'>
+                    <Header />
+                </div>
+            
+                <div className='aboutSection'>
+                    <AboutMe />
+                    <BackgroundAnimation />
+                </div>
+                <Portfolio />
+                <Contact />
+                <Resume />
+                <Footer />
+            </div>
         </div>
     )
 }
