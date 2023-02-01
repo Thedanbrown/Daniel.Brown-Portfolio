@@ -1,0 +1,32 @@
+.project-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title {
+    display: block;
+}
+.project-content {
+    font-family: var(--font-family);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--BRgradient);
+    padding: 1rem;
+}
+
+.project-image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.project-image img {
+    max-width: 300px;
+    max-height: 300px;
+}

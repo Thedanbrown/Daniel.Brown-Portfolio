@@ -6,8 +6,6 @@
     align-items: center;
     padding: 6rem;
     gap: 1;
-    background: var(--BRgradient);
-    border-radius: 5px;
 }
 
 .about-bio {
@@ -16,7 +14,7 @@
 }
 
 .about-bio p {
-    color: var(--gray);
+    color: var(--text);
     font-size: 18px;
     margin: 40px 0 0 20px;
 }
