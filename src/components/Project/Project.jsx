@@ -2,21 +2,22 @@ import React from 'react'
 import './Project.css'
 
 
-const Project = ({ title, description, image, deployed, repository }) => {
+const Project = (props) => {
+  console.log(props)
   return (
     <div className='project-container'>
       <div className='project-content'>
         <div className='project-title'>
-          <h3>{title}</h3>
+          <h3>{props.title}</h3>
         </div>
         <div className='project-image'>
-          <img src={image} alt='project screenshot' />
+          <img src={props.imageurl} alt='project screenshot' />
         </div>
         <div className='project-list'>
           
-            <p>{description}</p>
-            <p><a href={deployed}>Deployement</a></p>
-            <p><a href={repository}>Repository</a></p>
+            <p>{props.description}</p>
+            <p><a href={props.deployed} className='project-link'>Deployement</a></p>
+            <p><a href={props.repository} className='project-link'>Repository</a></p>
           
         </div>
       </div>

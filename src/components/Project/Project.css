@@ -2,31 +2,42 @@
     width: 100%;
     height: 100%;
     display: flex;
-    
     justify-content: center;
     align-items: center;
+    
+}
+
+.project-content {
+    font-family: var(--font-family);
+    font-size: 1rem;
+    color: var(--text);
+    max-width: 350px;
+    margin: auto 1rem;
+    text-align: center;
+    background: var(--BRgradient);
+    padding: 1rem;
+    border-radius: 5px;
 }
 
 .project-title {
-    display: block;
-}
-.project-content {
-    font-family: var(--font-family);
-    color: var(--text);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: var(--BRgradient);
-    padding: 1rem;
+    font-weight: 800;
+    font-size: 1.5rem;
 }
 
 .project-image {
-    max-width: 300px;
+    max-width: 100%;
     max-height: 300px;
+    object-fit: cover;
 }
 
 .project-image img {
     max-width: 300px;
     max-height: 300px;
+    border-radius: 5px;
+}
+
+.project-link {
+    color: white;
+    text-decoration: underline;
+    font-size: .75rem;
 }

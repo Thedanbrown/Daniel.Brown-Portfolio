@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import './Navigation.css';
-import logo from '../../Assets/onikumalogo.png'
+
 
 const Menu = () => (
     <>
@@ -18,7 +18,7 @@ const Navigation = () => {
         <div className="portfolio-navbar">
             <div className="portfolio-navbar-links">
                 <div className="portfolio-navbar-links_logo">
-                    <a href='#home'><img src={logo} /></a>
+                    <a href='#home'><img src='/images/onikumalogo.png' alt='home logo'/></a>
                 </div>
                 <div className="portfolio-navbar-links_container">
                     <Menu />

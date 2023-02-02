@@ -1,19 +1,13 @@
 .portfolio {
-    display: grid;
+    border-bottom: 1px solid var(--teal);
 }
 
 .portfolio-heading {
     width: 100%;
     text-align: center;
-    margin-bottom: 5rem;
+    margin: 2rem 0 2rem 0;
     font-family: var(--font-family);
     color: var(--text);
 }
 
-.project-container {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-}
 
