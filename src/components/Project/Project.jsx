@@ -3,7 +3,6 @@ import './Project.css'
 
 
 const Project = (props) => {
-  console.log(props)
   return (
     <div className='project-container'>
       <div className='project-content'>

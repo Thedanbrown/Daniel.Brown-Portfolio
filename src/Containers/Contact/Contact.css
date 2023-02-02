@@ -1,3 +1,7 @@
+.contact-section {
+    border-bottom: .5px solid var(--teal);
+}
+
 
 .contact-title {
     width: 100%;
@@ -11,8 +15,8 @@
     display: flex;
     color: white;
     align-items: center;
-    justify-content: center;
-    gap: 6rem;
+    justify-content: space-around;
+    gap: 1rem;
 }
 
 .contact-left {
@@ -21,4 +25,10 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-content {
+        flex-direction: column;
+    }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContactInfo, ContactForm } from '../../components'
+import { ContactInfo, ContactForm, Map } from '../../components'
 import { MdEmail, MdPlace } from 'react-icons/md'
 import './Contact.css'
 
@@ -21,6 +21,7 @@ const Contact = () => {
         </div>
         
       </div>
+      <Map />
     </div>
   )
 }

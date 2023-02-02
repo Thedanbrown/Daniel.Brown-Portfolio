@@ -41,3 +41,17 @@
     text-decoration: underline;
     font-size: .75rem;
 }
+
+@media screen and (max-width: 480px) {
+    .project-content {
+        max-width: 200px;
+    }
+    .project-image {
+        max-width: 180px;
+        max-height: 180px;
+    }
+    .project-image img {
+        max-width: 180px;
+        max-height: 180px;
+    }
+}

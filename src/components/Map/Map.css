@@ -1,0 +1,36 @@
+.map-parent {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+        ), url('../../assets/map.png') no-repeat center / cover;
+    min-height: 300px;
+    margin-top: 2rem;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.map-container {
+    min-height: 300px;
+    position: relative;
+
+}
+
+.map-card {
+    position: absolute;
+    right: 25%;
+    bottom: 20%;
+    padding: 2rem;
+    background: var(--gray);
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .map-card {
+        max-width: none;
+        right: auto;
+    }
+}
