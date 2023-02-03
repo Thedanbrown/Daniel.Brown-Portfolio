@@ -12,7 +12,7 @@
   
   ## [Description](#table-of-contents)
 
- This repository contains my personal portfolio page. Built using REACT and native CSS. Practiced a lot of new skills with animations, carousels, and lots of new CSS.
+ This repository contains my personal portfolio page. Built using REACT, Create React app, and native CSS. Practiced a lot of new skills with animations, carousels, and lots of new CSS.
 
 
   ## [Installation](#table-of-contents)
