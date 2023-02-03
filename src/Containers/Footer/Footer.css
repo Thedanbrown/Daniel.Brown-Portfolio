@@ -1,0 +1,8 @@
+.footer-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    gap: 3rem;
+}

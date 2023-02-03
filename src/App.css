@@ -9,6 +9,18 @@ body {
     background: var(--backgroundGradient);
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.everythingElse {
+    flex-grow: 1;
+    overflow: scroll;
+}
+
 a {
     color: unset;
     text-decoration: none;
@@ -18,7 +30,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6rem;
+    padding: 3rem;
     border-bottom: .5px solid var(--pink);
 }
 
@@ -34,11 +46,11 @@ a {
 }
 
 .section-padding {
-    padding: 4rem 6rem;
+    padding: 3rem 4rem;
 }
 
 .section-margin {
-    margin: 4rem 6rem;
+    margin: 3rem 4rem;
 }
 
 .scale-up-center {

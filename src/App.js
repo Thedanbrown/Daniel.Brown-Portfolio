@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-import { BackgroundAnimation } from './components'
 import { Header, AboutMe, Portfolio, Contact, Resume, Footer } from './Containers'
 
 const App = () => {
@@ -10,15 +9,14 @@ const App = () => {
                 <div className='gradient__text'>
                     <Header />
                 </div>
-            
-                <div className='aboutSection'>
-                    <AboutMe />
-                    <BackgroundAnimation />
-                </div>
+            <div className='everythingElse'>
+                <AboutMe />
                 <Portfolio />
                 <Contact />
                 <Resume />
                 <Footer />
+            </div>
+                
             </div>
         </div>
     )

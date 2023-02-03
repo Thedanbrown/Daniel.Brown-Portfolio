@@ -1,9 +1,25 @@
+.about:hover, .about.active {
+    text-shadow: 2px 2px 6px var(--pink);
+}
+
+.port:hover, .port.active {
+    text-shadow: 2px 2px 6px var(--teal);
+}
+
+.contact:hover, .contact.active {
+    text-shadow: 2px 2px 6px var(--pink);
+}
+
+.resume:hover, .resume.active {
+    text-shadow: 2px 2px 6px var(--teal);
+}
+
 .portfolio-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: .5px solid var(--gray);
-    padding: 2rem 6rem;
+    padding: 2rem 3rem;
 }
 
 .portfolio-navbar-links {
@@ -56,7 +72,7 @@
 .portfolio-navbar-menu {
     margin-left: 1rem;
     color: white;
-
+    z-index: 3;
     display: none;
     position: relative;
 }

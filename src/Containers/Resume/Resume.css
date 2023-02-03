@@ -1,0 +1,25 @@
+.resume-parent {
+    border-bottom: .5px solid var(--pink);
+}
+
+.resume-container {
+    margin-bottom: 2rem;
+}
+
+.resume-header {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+    font-family: var(--font-family);
+    color: var(--text);
+    font-size: 24px;
+}
+
+.resume-link {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+    font-family: var(--font-family);
+    color: var(--teal);
+    font-size: 18px;
+}

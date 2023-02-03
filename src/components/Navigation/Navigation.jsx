@@ -3,14 +3,16 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import './Navigation.css';
 
 
-const Menu = () => (
+const Menu = () => {
+    const [activePage, setActivePage] = useState('about');
+    return (
     <>
-    <p><a href='#AboutMe'>About Me</a></p>
-    <p><a href='#Portfolio'>Portfolio</a></p>
-    <p><a href='#Contact'>Contact</a></p>
-    <p><a href='#Resume'>Resume</a></p>
+    <p className={`about ${activePage==='about' && 'active'}`}><a href='#AboutMe' onClick={() => setActivePage('about')}>About Me</a></p>
+    <p className={`port ${activePage==='port' && 'active'}`}><a href='#Portfolio' onClick={() => setActivePage('port')}>Portfolio</a></p>
+    <p className={`contact ${activePage==='contact' && 'active'}`}><a href='#Contact' onClick={() => setActivePage('contact')}>Contact</a></p>
+    <p className={`resume ${activePage==='resume' && 'active'}`}><a href='#Resume' onClick={() => setActivePage('resume')}>Resume</a></p>
     </>
-)
+)}
 
 const Navigation = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -18,7 +20,7 @@ const Navigation = () => {
         <div className="portfolio-navbar">
             <div className="portfolio-navbar-links">
                 <div className="portfolio-navbar-links_logo">
-                    <a href='#home'><img src='/images/onikumalogo.png' alt='home logo'/></a>
+                    <a href='#AboutMe'><img src='/images/onikumalogo.png' alt='home logo'/></a>
                 </div>
                 <div className="portfolio-navbar-links_container">
                     <Menu />
