@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithubSquare, FaLinkedin, FaInstagramSquare } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import './Footer.css'
-
+// footer componenet that links to social media pages represented by icons
 const Footer = () => {
   return (
     <div className='footer-container'>

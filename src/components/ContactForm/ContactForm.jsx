@@ -4,10 +4,7 @@ import emailjs from '@emailjs/browser';
 import './ContactForm.css'
 
 const ContactForm = () => {
-  // const [name, setName] = useState('');
-  // const [email, setEmail] = useState('');
-  // const [message, setMessage] = useState('');
-
+// contact form that sends a message to my email using emailjs
   const form = useRef();
   
   const sendEmail = (e) => {

@@ -2,7 +2,7 @@ import React from 'react'
 import { ContactInfo, ContactForm, Map } from '../../components'
 import { MdEmail, MdPlace } from 'react-icons/md'
 import './Contact.css'
-
+// contact section containing some personal info and an email message submit component
 const Contact = () => {
   return (
     <div className='contact-section section-padding' id='Contact'>

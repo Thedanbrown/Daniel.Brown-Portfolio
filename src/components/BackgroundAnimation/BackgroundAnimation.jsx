@@ -1,7 +1,7 @@
 import React from 'react';
 import './BackgroundAnimation.css';
 
-
+// background svg animation for our about me section
 const BackgroundAnimation = () => (
     <div className="svg-container">
         <svg 

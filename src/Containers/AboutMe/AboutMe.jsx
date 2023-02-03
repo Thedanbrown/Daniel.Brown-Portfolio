@@ -1,7 +1,7 @@
 import React from 'react'
 import { BackgroundAnimation } from '../../components'
 import './AboutMe.css'
-
+// component for the about me section. contains picture short bio and an svg background animation component
 const AboutMe = () => {
   return (
     <div className='about-container' id='AboutMe'>

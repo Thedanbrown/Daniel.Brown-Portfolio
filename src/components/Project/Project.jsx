@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css'
 
-
+// project card that takes in our array data for individual projects to display in the portfolio carousel
 const Project = (props) => {
   return (
     <div className='project-container'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './ContactInfo.css'
-
+// component that list some basic contatct info in the contact section
 const ContactInfo = (props) => {
     return (
         <div className='contactInfo-section'>

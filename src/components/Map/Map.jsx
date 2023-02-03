@@ -1,6 +1,6 @@
 import React from 'react'
 import './Map.css'
-
+// map component in the contact section to show our general location
 const Map = () => {
   return (
     <div className="map-parent">

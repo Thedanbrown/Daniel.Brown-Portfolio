@@ -1,4 +1,4 @@
-
+// array of objects containg all information for our project cards
 export const projects = [
     {
         title: 'Project 3',
@@ -55,7 +55,7 @@ export const projects = [
         id: 5,
     }
 ]
-
+// responsive logic for the carousel
 export const responsive = {
     superLargeDesktop: {
         breakpoint: { max: 4000, min: 1400 },

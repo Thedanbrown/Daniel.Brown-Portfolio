@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import './Navigation.css';
 
-
+// set our navigation routes on the page. Highlights the one that references the current section we are on and moves to that section of the page
 const Menu = () => {
     const [activePage, setActivePage] = useState('about');
     return (
@@ -13,7 +13,7 @@ const Menu = () => {
     <p className={`resume ${activePage==='resume' && 'active'}`}><a href='#Resume' onClick={() => setActivePage('resume')}>Resume</a></p>
     </>
 )}
-
+// navbar that converts to a hamburger dropdown menu on smaller screens
 const Navigation = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (

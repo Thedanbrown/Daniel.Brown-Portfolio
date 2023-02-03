@@ -1,7 +1,7 @@
 import React from 'react'
 import { Skills } from '../../components'
 import './Resume.css'
-
+// resume container, holds icons to showcase existing skills and a link to download resume
 const Resume = () => {
   return (
     <div className='resume-parent'>

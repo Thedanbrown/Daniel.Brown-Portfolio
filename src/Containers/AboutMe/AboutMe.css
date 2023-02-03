@@ -7,7 +7,7 @@
     align-items: center;
     padding: 4rem;
     gap: 1;
-
+/* sets position relative to allow the animation to fall behind the other items */
     position: relative;
 }
 
@@ -17,6 +17,7 @@
     gap: 2;
     padding: 1rem;
     max-width: 50%;
+    /* increased z index allows the text and picture to sit over the background animation */
     z-index: 2;
 }
 
@@ -41,7 +42,7 @@
     border-radius: 100px;
     filter: grayscale(85%)
 }
-
+/* media screens for responsiveness */
 @media screen and (max-width: 1050px) {
     .about-bio {
         flex-direction: column;

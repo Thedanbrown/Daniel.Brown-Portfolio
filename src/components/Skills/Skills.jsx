@@ -4,7 +4,7 @@ import { IoLogoCss3, IoLogoHtml5, IoLogoJavascript } from 'react-icons/io'
 import { SiMysql, SiMongodb, SiReact, SiExpress, SiBootstrap, SiBulma } from 'react-icons/si'
 import { FaNode } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
-
+// skill component using React Icons to showcase skillset
 const Skills = () => {
     return (
         <div className='skills-parent' id='Resume'>

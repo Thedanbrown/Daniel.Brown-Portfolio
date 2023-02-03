@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import { Header, AboutMe, Portfolio, Contact, Resume, Footer } from './Containers'
-
+// renders our page with the CONTAINERS components
 const App = () => {
     return (
         <div>
