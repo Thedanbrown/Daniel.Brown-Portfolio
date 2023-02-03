@@ -3,7 +3,7 @@ export const projects = [
     {
         title: 'Project 3',
         description: "MERN stack application for an AI art Generator with a community feed to see what others are creating",
-        imageurl: '/images/aiart.png',
+        imageurl: './images/aiart.png',
         tags: ['Mongo', 'Express', 'React', 'Node'],
         deployed: 'https://google.com',
         repository: 'https://github.com/Thedanbrown',
@@ -12,7 +12,7 @@ export const projects = [
     {
         title: 'TDB-Tube',
         description:"Fully Functional Youtube clone built using REACT and MaterialUI. Fully responsive with channel and individual video pages",
-        imageurl: '/images/tdbtube.png',
+        imageurl: './images/tdbtube.png',
         tags: ['React', 'JavaScript'],
         deployed: 'https://thedanbrown.github.io/tdb-tube/',
         repository: 'https://github.com/Thedanbrown/tdb-tube',
@@ -21,7 +21,7 @@ export const projects = [
     {
         title: 'Modern UI Design',
         description: "This page was build with REACT as an exploration on Modern UI/UX design as a way to get to using react and component based architecture",
-        imageurl: '/images/modernui.png',
+        imageurl: './images/modernui.png',
         tags: ['React'],
         deployed: 'https://gpt3jsmtdb.space/',
         repository: 'https://github.com/Thedanbrown/modern-UI-UX',
@@ -30,7 +30,7 @@ export const projects = [
     {
         title: 'Comic Case',
         description: "Track your comic book collection, share with other like minded individuals and see what others are collecting!",
-        imageurl: '/images/comiccase.png',
+        imageurl: './images/comiccase.png',
         tags: ['node', 'MySQL'],
         deployed: 'https://comic-case.herokuapp.com/',
         repository: 'https://github.com/Thedanbrown/Comic-Case',
@@ -39,7 +39,7 @@ export const projects = [
     {
         title: 'IDCWDYW',
         description: "I don't care, what do you want? Recipe generator for those that can't decide on what to eat!",
-        imageurl: '/images/IDCWDYW.png',
+        imageurl: './images/IDCWDYW.png',
         tags: ['Javascript', 'Bulma'],
         deployed: 'https://thedanbrown.github.io/IDCWDYW-Food-and-Beverage-Recipe-Generator/',
         repository: 'https://github.com/Thedanbrown/IDCWDYW-Food-and-Beverage-Recipe-Generator',
@@ -48,7 +48,7 @@ export const projects = [
     {
         title: 'README Generator',
         description: "This is a command line console app for generating quality README files for you projects",
-        imageurl: '/images/ReadmeGen.png',
+        imageurl: './images/ReadmeGen.png',
         tags: ['Javascript', 'Bulma'],
         deployed: '',
         repository: 'https://github.com/Thedanbrown/README-Generator-Console-App',

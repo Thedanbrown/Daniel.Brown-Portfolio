@@ -20,7 +20,7 @@ const Navigation = () => {
         <div className="portfolio-navbar">
             <div className="portfolio-navbar-links">
                 <div className="portfolio-navbar-links_logo">
-                    <a href='#AboutMe'><img src='/images/onikumalogo.png' alt='home logo'/></a>
+                    <a href='#AboutMe'><img src='./images/onikumalogo.png' alt='home logo'/></a>
                 </div>
                 <div className="portfolio-navbar-links_container">
                     <Menu />
