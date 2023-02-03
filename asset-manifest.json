@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/daniel.brown-portfolio/static/css/main.fe079da6.css",
-    "main.js": "/daniel.brown-portfolio/static/js/main.6845299b.js",
+    "main.js": "/daniel.brown-portfolio/static/js/main.b67deaf6.js",
     "static/media/map.png": "/daniel.brown-portfolio/static/media/map.f73cab56b65e2deb74a1.png",
     "static/media/revicons.eot": "/daniel.brown-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/daniel.brown-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/daniel.brown-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/daniel.brown-portfolio/index.html",
     "main.fe079da6.css.map": "/daniel.brown-portfolio/static/css/main.fe079da6.css.map",
-    "main.6845299b.js.map": "/daniel.brown-portfolio/static/js/main.6845299b.js.map"
+    "main.b67deaf6.js.map": "/daniel.brown-portfolio/static/js/main.b67deaf6.js.map"
   },
   "entrypoints": [
     "static/css/main.fe079da6.css",
-    "static/js/main.6845299b.js"
+    "static/js/main.b67deaf6.js"
   ]
 }
