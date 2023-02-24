@@ -1,12 +1,12 @@
 // array of objects containg all information for our project cards
 export const projects = [
     {
-        title: 'Project 3',
-        description: "MERN stack application for an AI art Generator with a community feed to see what others are creating",
-        imageurl: './images/aiart.png',
+        title: 'Artbot-AI',
+        description: "MERN stack GraphQL application for an AI art Generator with a community feed to see what others are creating",
+        imageurl: './images/Artbot-AI.png',
         tags: ['Mongo', 'Express', 'React', 'Node'],
-        deployed: 'https://google.com',
-        repository: 'https://github.com/Thedanbrown',
+        deployed: 'https://artbotai.herokuapp.com/',
+        repository: 'https://github.com/Thedanbrown/artbot-ai',
         id: 0,
     },
     {
