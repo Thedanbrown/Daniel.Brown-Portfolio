@@ -9,7 +9,7 @@ const AboutMe = () => {
         <img className='profileImg' alt='' src='./images/dan.jpg' />
         <div className='aboutTxt'>
         <h2 className='gradient__text'>Daniel.M.Brown</h2>
-        <p>Former executive chef turned fullstack web development bootcamp graduate with a passion for technology and a desire to learn. Proven ability to apply attention to detail, adaptability and problem-solving skills to web development projects. Confident in designing and building high-quality web applications.</p>
+        <p>Georgia Institute of Technology Full Stack Web Development Bootcamp graduate offering the strategic thinking, planning, time and business management skills honed from 10+ years of experience as an Executive Chef.</p>
         </div>
       </div>
       <BackgroundAnimation />

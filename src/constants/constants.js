@@ -20,7 +20,7 @@ export const projects = [
     },
     {
         title: 'Modern UI Design',
-        description: "This page was build with REACT as an exploration on Modern UI/UX design as a way to get to using react and component based architecture",
+        description: "This page was build with REACT as an exploration on Modern UI/UX design as a way to get used to using react and component based architecture",
         imageurl: './images/modernui.png',
         tags: ['React'],
         deployed: 'https://gpt3jsmtdb.space/',
